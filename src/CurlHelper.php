@@ -1,6 +1,6 @@
 <?php
 
-namespace Hungnguyen\Curl;
+namespace Hungnguyenba\Curl;
 
 trait CurlHelper
 {

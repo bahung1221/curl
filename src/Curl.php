@@ -1,8 +1,8 @@
 <?php
 
-namespace Hungnguyen\Curl;
+namespace Hungnguyenba\Curl;
 
-use Hungnguyen\Curl\CurlHelper;
+use Hungnguyenba\Curl\CurlHelper;
 
 class Curl
 {
@@ -67,7 +67,7 @@ class Curl
      */
     public function setUrl(string $url) : Curl
     {
-        $this->url = empty($url) ? with(new SystemVariable)->apiHost() : $url;
+        $this->url = empty($url) ? '' : $url;
         return $this;
     }
 

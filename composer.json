@@ -1,5 +1,5 @@
 {
-    "name": "hungnguyen/curl",
+    "name": "hungnguyenba/curl",
     "description": "package to provide a curl service for api eloquent model",
     "type": "library",
     "authors": [
