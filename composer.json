@@ -1,0 +1,12 @@
+{
+    "name": "hungnguyen/curl",
+    "description": "package to provide a curl service for api eloquent model",
+    "type": "library",
+    "authors": [
+        {
+            "name": "bahung1221",
+            "email": "bahung1221@gmail.com"
+        }
+    ],
+    "require": {}
+}
