@@ -8,5 +8,11 @@
             "email": "bahung1221@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hungnguyenba\\Curl\\": "src/"
+        }
+    }
+
 }
