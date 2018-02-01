@@ -86,16 +86,6 @@ class Curl
      *
      * @return array
      */
-    public function getRecord(string $api, int $id, array $input = []) : array
-    {
-        return $this->get($api . '/' . $id, $input);
-    }
-
-    /**
-     * Excecute the GET request and get the response body as array
-     *
-     * @return array
-     */
     public function get(string $api, array $input = [], $isGetMetaData = false) : array
     {
         if ($isGetMetaData) {

@@ -4,7 +4,7 @@ namespace Hungnguyenba\Curl;
 
 trait CurlHelper
 {
-    /**
+     /**
      * Indicates if http request body filtering is enable
      *
      * @var bool
@@ -108,6 +108,7 @@ trait CurlHelper
         foreach ($headers as $key => $value) {
             $this->header[] = $key . ':' . $value;
         }
+        
         return $this->header;
     }
 
