@@ -134,7 +134,7 @@ class Curl
      *
      * @return void
      */
-    public function delete($api, int $id) : void
+    public function delete($api, int $id)
     {
         $ch = curl_init($this->getUrl() . $api . '/' . $id);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'DELETE');
