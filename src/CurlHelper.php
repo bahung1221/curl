@@ -98,7 +98,7 @@ trait CurlHelper
         $isIp = $type == 2 || $type == 3;
         $headers = array_filter([
             'Content-Type' => 'application/json',
-            'user-token' => userId(),
+            'user-token' => function_exists('userId') ? userId() : null,
             'api' => request()->path(),
             'special' => $this->specialTag,
             'i-debug' => env('API_DEBUG_CODE', 0),
